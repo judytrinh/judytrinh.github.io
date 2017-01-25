@@ -1,5 +1,5 @@
 {
-  "name": "judytrinhcom",
+  "name": "judytrinh.github.io",
   "version": "1.0.0",
   "description": "Personal website.",
   "main": "index.html",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "judytrinhcom"
+    "url": "git@github.com:judytrinh/judytrinh.github.io.git"
   },
   "author": "Judy Trinh",
   "license": "ISC",
