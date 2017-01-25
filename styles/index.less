@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../assets/pacifico-webfont.woff2') format('woff2'),
+         url('../assets/pacifico-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url("../assets/congruent_pentagon.png");
+    background-repeat: repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#content-top {
+    position: relative;
+    right: 0;
+    bottom: 39%;
+    width: 100vw;
+    height: 66vh;
+    text-align: right;
+    color: #24574c;
+    opacity: 0.91;
+
+    .header-container {
+        position: absolute;
+        float: right;
+        right: 0;
+        bottom: 45px;
+        margin-right: 8.5%;
+        width: 600px;
+
+        .header {
+            float: right;
+            display: block;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: -28px;
+            width: 600px;
+            font-size: 5.5em;
+            font-family: 'pacificoregular';
+        }
+
+        .subheader {
+            float: right;
+            display: block;
+            bottom: 0;
+            margin-right: 27px;
+            width: 600px;
+            font-size: 1.1em;
+            color: #599188;
+        }
+    }
+}
+
+#content-bottom {
+    position: absolute;
+    top: 66%;
+    right: 0;
+    border-top: 1px solid rgba(79, 224, 193, 0.36);
+    width: 100vw;
+    height: 34vh;
+    text-align: right;
+    background-color: #f6f6f6;
+
+    .links {
+        right: 0;
+        margin-top: 55px;
+        margin-right: 8.5%;
+
+        a {
+            display: inline-block;
+            margin-right: 25px;
+            text-decoration: none;
+            font-size: 1.8em;
+            color: #24574c;
+            &:hover {
+                color: #599188;
+            }
+        }
+    }
+}
